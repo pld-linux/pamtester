@@ -1,5 +1,5 @@
 Summary:	Utility for testing pluggable authentication modules (PAM) facility
-Summary(pl.UTF-8):   Narzędzie do testowania modułów PAM
+Summary(pl.UTF-8):	Narzędzie do testowania modułów PAM
 Name:		pamtester
 Version:	0.1.2
 Release:	0.1
