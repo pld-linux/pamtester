@@ -1,5 +1,5 @@
 Summary:	Utility for testing pluggable authentication modules (PAM) facility
-Summary(pl):	Narzêdzie do testowania modu³ów PAM
+Summary(pl.UTF-8):   NarzÄ™dzie do testowania moduÅ‚Ã³w PAM
 Name:		pamtester
 Version:	0.1.2
 Release:	0.1
@@ -22,16 +22,16 @@ modules, that might also be handy for system administrators interested
 in building a centralised authentication system using common standards
 such as NIS, SASL and LDAP.
 
-%description -l pl
-pamtester to ma³y program narzêdziowy do testowania modu³ów PAM
-(Pluggable Authentication Modules), bêd±cych standardem de facto
+%description -l pl.UTF-8
+pamtester to maÅ‚y program narzÄ™dziowy do testowania moduÅ‚Ã³w PAM
+(Pluggable Authentication Modules), bÄ™dÄ…cych standardem de facto
 ujednoliconego mechanizmu uwierzytelniania w wielu systemach
 uniksowych.
 
-O ile program zosta³ napisany z my¶l± o pomocy autorom modu³ów PAM w
-testowaniu ich modu³ów, mo¿e byæ tak¿e przydatny dla administratorów
-systemów zainteresowanych tworzeniem scentralizowanego systemu
-uwierzytelniania z u¿yciem popularnych standardów takich jak NIS, SASL
+O ile program zostaÅ‚ napisany z myÅ›lÄ… o pomocy autorom moduÅ‚Ã³w PAM w
+testowaniu ich moduÅ‚Ã³w, moÅ¼e byÄ‡ takÅ¼e przydatny dla administratorÃ³w
+systemÃ³w zainteresowanych tworzeniem scentralizowanego systemu
+uwierzytelniania z uÅ¼yciem popularnych standardÃ³w takich jak NIS, SASL
 i LDAP.
 
 %prep
