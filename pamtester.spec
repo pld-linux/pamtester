@@ -2,7 +2,7 @@ Summary:	Utility for testing pluggable authentication modules (PAM) facility
 Summary(pl.UTF-8):	Narzędzie do testowania modułów PAM
 Name:		pamtester
 Version:	0.1.2
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Base
 Source0:	http://dl.sourceforge.net/pamtester/%{name}-%{version}.tar.gz
@@ -43,8 +43,8 @@ i LDAP.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -D src/%{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
-install -D doc/%{name}.1 $RPM_BUILD_ROOT%{_mandir}/man1/%{name}.1
+install -Dp src/%{name} $RPM_BUILD_ROOT%{_bindir}/%{name}
+install -Dp doc/%{name}.1 $RPM_BUILD_ROOT%{_mandir}/man1/%{name}.1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
