@@ -5,9 +5,12 @@ Version:	0.1.2
 Release:	1
 License:	GPL
 Group:		Base
-Source0:	http://dl.sourceforge.net/pamtester/%{name}-%{version}.tar.gz
+Source0:	http://downloads.sourceforge.net/pamtester/%{name}-%{version}.tar.gz
 # Source0-md5:	f441a6617cbc640ea02f3e22058c0461
 URL:		http://pamtester.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool
 BuildRequires:	pam-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -38,6 +41,10 @@ i LDAP.
 %setup -q
 
 %build
+%{__libtoolize}
+%{__aclocal}
+%{__autoconf}
+%{__automake}
 %configure
 %{__make}
 
